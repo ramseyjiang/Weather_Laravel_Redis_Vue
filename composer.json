@@ -14,12 +14,16 @@
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.6",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
+        "mpociot/laravel-test-factory-helper": "^1.2",
         "nunomaduro/collision": "^3.0",
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "xethron/migrations-generator": "^2.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -33,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Weather\\": "app/"
         },
         "classmap": [
             "database/seeds",
